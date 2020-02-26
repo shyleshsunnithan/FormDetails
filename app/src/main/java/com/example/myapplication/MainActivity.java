@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
                 ret = stringBuilder.toString();
             }
         }
-        catch (FileNotFoundException e) {
+        catch (FileNotFoundException e) { 
             ret="[]";
             Log.e("login activity", "File not found: " + e.toString());
         } catch (IOException e) {
